@@ -1,7 +1,7 @@
 name: Updating the resources
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 0 * * *"
 jobs:
   build:
     name: Build
@@ -19,7 +19,7 @@ jobs:
       - name: Build Test
         run: go build .
       - name: Generating new resources.
-        run: .\ip-blocklists.exe -update
+        run: .\network-database.exe -update
       - name: Update resources
         run: |
           git config user.name github-actions
