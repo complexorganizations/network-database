@@ -12,14 +12,14 @@ A collection of IP addresses linked to specific types of material.
 ### CDN
 | Name | Description | GitHub | GitLab | Statically | JSDelivr | Combinatronics |
 | :--- | :---------- | :----- | :----- | :--------- | :------- | :------------- |
-| Abuse | A collection of abuse-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/abuse` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/abuse` | `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/abuse` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/abuse` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/abuse` |
-| Anonymizers | A collection of anonymizers-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/anonymizers` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/anonymizers` | `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/anonymizers` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/anonymizers` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/anonymizers` |
-| Attacks | A collection of attacks-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/attacks` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/attacks` | `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/attacks` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/attacks` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/attacks` |
-| Malware | A collection of malware-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/malware` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/malware` | `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/malware` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/malware` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/malware` |
-| Organizations | A collection of organizations-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/organizations` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/organizations` | `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/organizations` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/organizations` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/organizations` |
-| Reputation | A collection of reputation-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/reputation` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/reputation` | `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/reputation` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/reputation` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/reputation` |
-| Spam | A collection of spam-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/spam` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/spam` |  `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/spam` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/spam` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/spam` |
-| Unroutable | A collection of unroutable IP addresses. | `https://raw.githubusercontent.com/complexorganizations/ip-blocklists/main/assets/unroutable` | `https://gitlab.com/prajwal-koirala/ip-blocklists/-/raw/main/assets/unroutable` |  `https://cdn.statically.io/gh/complexorganizations/ip-blocklists/main/assets/unroutable` | `https://cdn.jsdelivr.net/gh/complexorganizations/ip-blocklists/assets/unroutable` | `https://combinatronics.io/complexorganizations/ip-blocklists/main/assets/unroutable` |
+| Abuse | A collection of abuse-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/abuse` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/abuse` | `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/abuse` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/abuse` | `https://combinatronics.io/complexorganizations/network-database/main/assets/abuse` |
+| Anonymizers | A collection of anonymizers-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/anonymizers` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/anonymizers` | `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/anonymizers` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/anonymizers` | `https://combinatronics.io/complexorganizations/network-database/main/assets/anonymizers` |
+| Attacks | A collection of attacks-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/attacks` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/attacks` | `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/attacks` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/attacks` | `https://combinatronics.io/complexorganizations/network-database/main/assets/attacks` |
+| Malware | A collection of malware-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/malware` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/malware` | `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/malware` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/malware` | `https://combinatronics.io/complexorganizations/network-database/main/assets/malware` |
+| Organizations | A collection of organizations-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/organizations` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/organizations` | `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/organizations` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/organizations` | `https://combinatronics.io/complexorganizations/network-database/main/assets/organizations` |
+| Reputation | A collection of reputation-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/reputation` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/reputation` | `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/reputation` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/reputation` | `https://combinatronics.io/complexorganizations/network-database/main/assets/reputation` |
+| Spam | A collection of spam-related IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/spam` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/spam` |  `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/spam` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/spam` | `https://combinatronics.io/complexorganizations/network-database/main/assets/spam` |
+| Unroutable | A collection of unroutable IP addresses. | `https://raw.githubusercontent.com/complexorganizations/network-database/main/assets/unroutable` | `https://gitlab.com/prajwal-koirala/network-database/-/raw/main/assets/unroutable` |  `https://cdn.statically.io/gh/complexorganizations/network-database/main/assets/unroutable` | `https://cdn.jsdelivr.net/gh/complexorganizations/network-database/assets/unroutable` | `https://combinatronics.io/complexorganizations/network-database/main/assets/unroutable` |
 
 
 ---
@@ -28,13 +28,13 @@ A collection of IP addresses linked to specific types of material.
 Clone the project
 
 ```bash
-git clone https://github.com/complexorganizations/ip-blocklists
+git clone https://github.com/complexorganizations/network-database
 ```
 
 Go to the project directory
 
 ```bash
-cd ip-blocklists
+cd network-database
 ```
 
 Build the application
@@ -46,7 +46,7 @@ go build .
 Update the lists.
 
 ```bash
-./ip-blocklists -update
+./network-database -update
 ```
 
 ---
