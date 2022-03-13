@@ -28,16 +28,15 @@ var (
 	exclusionIPRange []string
 	// The files current location.
 	assetsLocation            = "assets/"
-	analysisLocation          = assetsLocation + "analysis/"
-	exclusionFileLocation     = analysisLocation + "exclusion"
-	abuseFileLocation         = analysisLocation + "abuse"
-	anonymizersFileLocation   = analysisLocation + "anonymizers"
-	attacksFileLocation       = analysisLocation + "attacks"
-	malwareFileLocation       = analysisLocation + "malware"
-	organizationsFileLocation = analysisLocation + "organizations"
-	reputationFileLocation    = analysisLocation + "reputation"
-	spamFileLocation          = analysisLocation + "spam"
-	unroutableFileLocation    = analysisLocation + "unroutable"
+	exclusionFileLocation     = assetsLocation + "exclusion"
+	abuseFileLocation         = assetsLocation + "abuse"
+	anonymizersFileLocation   = assetsLocation + "anonymizers"
+	attacksFileLocation       = assetsLocation + "attacks"
+	malwareFileLocation       = assetsLocation + "malware"
+	organizationsFileLocation = assetsLocation + "organizations"
+	reputationFileLocation    = assetsLocation + "reputation"
+	spamFileLocation          = assetsLocation + "spam"
+	unroutableFileLocation    = assetsLocation + "unroutable"
 )
 
 func init() {
