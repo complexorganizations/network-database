@@ -208,6 +208,8 @@ func getAllURlsAndStartScraping() {
 }
 
 func scrapeAllIP(url string, saveLocation string) {
+	// If you find any old files, delete them from your system.
+	removeThisFile(saveLocation)
 	// Send a request for all of the information you want.
 	response, err := http.Get(url)
 	if err != nil {
@@ -234,8 +236,6 @@ func scrapeAllIP(url string, saveLocation string) {
 	if err != nil {
 		log.Fatalln(err)
 	}
-	// If you find any old files, delete them from your system.
-	removeThisFile(saveLocation)
 	for _, content := range returnContent {
 		content = strings.TrimSpace(content)
 		// This is a list of all the content discovered using the regex.
