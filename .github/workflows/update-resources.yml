@@ -28,11 +28,9 @@ jobs:
         run: .\network-database.exe -update
       - name: Update resources
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git checkout --orphan tmp-main
-          git add -A
-          git commit -m "Updates are performed automatically. $(date)"
-          git branch -D main
-          git branch -m main
-          git push -f origin main
+          git config user.name "github-actions"       # Configures GitHub Actions bot as the commit author.
+          git config user.email "github-actions@github.com"
+          git add .                                    # Adds changes to the staging area.
+          git commit -m "Automated update: $(date)"    # Commits changes with a timestamp.
+          git pull --rebase origin main                # Rebases with remote main to avoid conflicts.
+          git push origin main                         # Pushes the commit to the main branch.
