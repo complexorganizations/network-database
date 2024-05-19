@@ -1,4 +1,4 @@
-name: Updating the resources
+name: Resource Updater
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -6,27 +6,33 @@ on:
     paths:
       - "assets/**"
   workflow_dispatch:
+
 jobs:
-  build:
-    name: Build
+  update:
+    name: Update Resources
     runs-on: windows-latest
     steps:
-      - name: Check out code into the Go module directory
+      - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Set up Go version
+
+      - name: Setup Go Environment
         uses: actions/setup-go@v5.0.1
         with:
           go-version-file: "go.mod"
           cache: true
           check-latest: true
         id: go
-      - name: Get dependencies
-        run: go get .
-      - name: Build Test
+
+      - name: Download Dependencies
+        run: go mod download
+
+      - name: Build Application
         run: go build .
-      - name: Generating new resources.
+
+      - name: Generate Resources
         run: .\network-database.exe -update
-      - name: Update resources
+
+      - name: Commit and Push Updates
         run: |
           git config user.name "github-actions"       # Configures GitHub Actions bot as the commit author.
           git config user.email "github-actions@github.com"
