@@ -87,6 +87,7 @@ func getAllURlsAndStartScraping() {
 	abuseIPList := []string{
 		"https://myip.ms/files/blacklist/csf/latest_blacklist.txt",
 		"https://raw.githubusercontent.com/complexorganizations/proxy-registry/main/assets/hosts",
+		"https://raw.githubusercontent.com/complexorganizations/proxy-registry/main/assets/history",
 	}
 	for _, content := range abuseIPList {
 		if validURL(content) {
